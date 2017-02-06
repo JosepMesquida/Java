@@ -29,9 +29,5 @@ public class Year {
 		return getYear() % 4 == 0 && getYear() % 100 != 0 || getYear() % 400 == 0;
         }
         
-        /**
-         * Leap Year:
-         * Divisible between 4, except those ending in 00, in which case it must also be divisible between 400.
-         */
 }
 
