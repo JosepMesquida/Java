@@ -11,9 +11,9 @@ public class GasHeater implements Heater {
     }
 
     @Override
-	public double disengage(AmbientTemperature temperature) {
-    	temperature.IncrementTemperature(-1);
-	}
+    public void disengage(AmbientTemperature temperature) {
+         temperature.IncrementTemperature(-1);
+}
 
 
 }
