@@ -1,5 +1,6 @@
 package org.foobarspam.furnace.components;
 
-public class RegulatorDisplayCodes {
+public enum RegulatorDisplayCodes {
 
+	OFF,ON,HEATING,WAITING;
 }
